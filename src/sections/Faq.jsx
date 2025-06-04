@@ -3,9 +3,10 @@ import Accordion from '../components/Accordion'
 
 const Faq = () => {
 	return (
-		<div>Faq page
+		<section className='text-center'>
+			<h2 className='text-3xl font-bold mb-10'>FAQ </h2>
 			<Accordion />
-		</div>
+		</section>
 	)
 }
 

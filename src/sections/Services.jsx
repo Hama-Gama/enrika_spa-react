@@ -43,11 +43,11 @@ const cardData = [
 
 const Services = () => {
 	return (
-		<div>
+		<section>
 			<CardSlider 
 			cards={cardData} 
 			/>
-		</div>
+		</section>
 	)
 }
 

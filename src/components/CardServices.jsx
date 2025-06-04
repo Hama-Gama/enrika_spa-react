@@ -10,7 +10,7 @@ const CardServices = ({
 }) => {
 	return (
 		<div
-			className={`bg-[#f8f4f4] rounded-2xl shadow-md overflow-hidden transition hover:shadow-xl ${className}`}
+			className={`bg-[#f8f4f4] rounded-2xl shadow-md overflow-hidden mb-8 transition hover:shadow-xl ${className}`}
 		>
 			<img src={image} alt={title} className='w-full h-56 object-cover' />
 

@@ -1,14 +1,13 @@
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
 import Layout from './components/Layout';
-import Home from "./pages/Home";
-import Faq from "./pages/Faq";
-import Contacts from "./pages/Contacts";
-import Reviews from "./pages/Reviews";
-import Services from "./pages/Services";
+import Home from "./sections/Home";
+import Faq from "./sections/Faq";
+import Contacts from "./sections/Contacts";
+import Reviews from "./sections/Reviews";
+import Services from "./sections/Services";
 
 import 'swiper/css'
-import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 function App() {

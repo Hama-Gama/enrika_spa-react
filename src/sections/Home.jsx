@@ -1,10 +1,14 @@
 import React from 'react'
 import Button from '../components/ui/Button'
+import Services from './Services'
+import Faq from './Faq'
+import Reviews from './Reviews'
+import Contacts from './Contacts'
 // import ImageBg from "../assets/bg-home"
 
 const Home = () => {
 	return (
-		<div className=''>
+		<section className="py-16 bg-gray-100" id='home'>
 			home page
 			<Button
 				href='https://wa.me/+77018086699'
@@ -22,7 +26,11 @@ const Home = () => {
 			>
 				Позвонить сейчас
 			</Button>
-		</div>
+			<Services />
+			<Faq />
+			<Reviews />
+			<Contacts />
+		</section>
 	)
 }
 
