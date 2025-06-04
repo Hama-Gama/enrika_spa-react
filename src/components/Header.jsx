@@ -28,6 +28,9 @@ const Header = () => {
 					<Link to='/faq' className='hover:underline'>
 						FAQ
 					</Link>
+					<Link to='/services' className='hover:underline'>
+						Услуги
+					</Link>
 					<Link to='/reviews' className='hover:underline'>
 						Отзывы
 					</Link>
@@ -57,6 +60,13 @@ const Header = () => {
 						className='hover:underline'
 					>
 						FAQ
+					</Link>
+					<Link
+						to='/services'
+						onClick={() => setIsOpen(false)}
+						className='hover:underline'
+					>
+						Услуги
 					</Link>
 					<Link
 						to='/reviews'

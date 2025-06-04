@@ -1,9 +1,10 @@
 import React from 'react'
 import Button from '../components/ui/Button'
+// import ImageBg from "../assets/bg-home"
 
 const Home = () => {
 	return (
-		<div>
+		<div className=''>
 			home page
 			<Button
 				href='https://wa.me/+77018086699'
