@@ -12,7 +12,7 @@ import contactImage from '/contact-image.jpg'
 const Contact = () => {
 	return (
 		<section className=' bg-white' id='contacts'>
-			<div className='container mx-auto px-4 max-w-4xl'>
+			<div className='container mx-auto py-4 max-w-4xl'>
 
 
 				<div className='grid gap-8 md:grid-cols-2'>

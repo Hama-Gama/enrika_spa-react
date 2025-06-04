@@ -3,7 +3,7 @@ import ReviewsSlider from '../components/ReviewsSlider'
 
 const Reviews = () => {
 	return (
-		<section>
+		<section id='reviews'>
 			<ReviewsSlider />
 		</section>
 	)

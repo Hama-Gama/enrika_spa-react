@@ -7,7 +7,7 @@ const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<header className='text-[#5d5d5e] p-4 shadow-md'>
+		<header className='fixed top-0 left-0 w-full z-50 bg-white text-[#5d5d5e] p-4 shadow-md'>
 			<div className='container mx-auto md:p-2 flex md:flex-row items-center justify-between'>
 				<div>
 					<h1 className='text-2xl font-bold'>Enrika_777</h1>

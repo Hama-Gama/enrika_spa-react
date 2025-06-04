@@ -13,21 +13,21 @@ const cardData = [
 	},
 	{
 		image: '/service-2.jpg',
-		title: 'Массаж шеи',
+		title: 'Spa для головы',
 		description: 'Профессиональный массаж - это не только удовльсвие, но и забота о здоровье. Мы предлагаем индивидуальный подход к каждому гостю',
 		// buttonText: 'Узнать больше',
 		// buttonLink: '/services',
 	},
 	{
 		image: '/service-3.jpg',
-		title: 'Массаж шеи',
+		title: 'Депиляция, шугаринг',
 		description: 'Профессиональный массаж - это не только удовльсвие, но и забота о здоровье. Мы предлагаем индивидуальный подход к каждому гостю',
 		// buttonText: 'Узнать больше',
 		// buttonLink: '/services',
 	},
 	{
 		image: '/service-4.jpg',
-		title: 'Массаж шеи',
+		title: 'Прессотерапия',
 		description: 'Профессиональный массаж - это не только удовльсвие, но и забота о здоровье. Мы предлагаем индивидуальный подход к каждому гостю',
 		// buttonText: 'Узнать больше',
 		// buttonLink: '/services',
@@ -43,7 +43,7 @@ const cardData = [
 
 const Services = () => {
 	return (
-		<section>
+		<section id='services'>
 			<CardSlider 
 			cards={cardData} 
 			/>
