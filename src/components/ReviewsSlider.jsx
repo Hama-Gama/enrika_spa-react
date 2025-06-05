@@ -35,7 +35,7 @@ const reviews = [
 
 const ReviewsSlider = () => {
 	return (
-		<section className='py-16 bg-gray-50'>
+		<section className='py-16 bg-gradient-to-r from-[#F0BBBB] to-[#FADFDF]'>
 			<div className='max-w-4xl mx-auto px-4 text-center'>
 				<h2 className='text-3xl font-bold mb-10'>Отзывы </h2>
 

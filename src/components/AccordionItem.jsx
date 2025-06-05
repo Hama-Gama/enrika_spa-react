@@ -3,12 +3,12 @@ import { ChevronDown } from 'lucide-react'
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
 	return (
-		<div className='border-b border-gray-200'>
+		<div className='border-b border-gray-200 px-2'>
 			<button
 				onClick={onClick}
 				className='w-full flex justify-between items-center py-4 text-left'
 			>
-				<span className='text-lg font-medium'>{title}</span>
+				<span className='text-lg font-medium tracking-wide'>{title}</span>
 				<ChevronDown
 					className={`w-5 h-5 transition-transform duration-300 ${
 						isOpen ? 'rotate-180' : ''
@@ -25,7 +25,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
 						exit={{ opacity: 0, height: 0 }}
 						transition={{ duration: 0.3 }}
 					>
-						<div className='pb-4 text-gray-600'>{content}</div>
+						<div className='pb-4 text-white tracking-wide'>{content}</div>
 					</motion.div>
 				)}
 			</AnimatePresence>

@@ -3,7 +3,7 @@
 const baseStyles ='inline-flex items-center justify-center gap-2 px-4 py-2 rounded-2xl transition font-medium'
 
 const variants = {
-	primary: 'bg-[#77D7A7] text-white hover:bg-blue-700 rounded-3xl',
+	primary: 'bg-[#77D7A7] text-white hover:bg-[transparent] hover:border rounded-3xl',
 	secondary: 'bg-white text-blue-600 border border-blue-600 hover:bg-blue-100',
 	outline: 'border border-white text-white hover:bg-white hover:text-blue-600',
 }

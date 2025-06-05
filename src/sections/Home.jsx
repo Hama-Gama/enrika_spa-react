@@ -5,6 +5,7 @@ import Faq from './Faq'
 import Reviews from './Reviews'
 import Contacts from './Contacts'
 import Hero from './Hero'
+import FloatingButtons from '../components/ui/FloatingButtons'
 // import ImageBg from "../assets/bg-home"
 
 const Home = () => {

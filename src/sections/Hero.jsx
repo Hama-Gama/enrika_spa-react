@@ -1,9 +1,9 @@
 
-import { CircleCheckBig, MessageCircle, Phone } from 'lucide-react'
+import { CircleCheckBig, Phone } from 'lucide-react'
 import heroImage from "../assets/bg-home.jpg";
 import Button from "../components/ui/Button";
 
-import { ReactComponent as WhatsAppIcon } from "../assets/WhatsApp.svg"
+// import { ReactComponent as WhatsAppIcon } from "/whatsapp.png"
 
 
 const Hero = () => {
@@ -44,7 +44,7 @@ const Hero = () => {
 						variant='primary'
 					>
 						Записаться на прием
-						<WhatsAppIcon className="ml-5 w-5 h-5 text-white" />
+						<img src='/whatsapp.png' alt='whatsapp' className='ml-2 w-5 h-5' />
 					</Button>
 					<Button
 						href='tel:+77018086699'
@@ -53,9 +53,7 @@ const Hero = () => {
 						variant='primary'
 					>
 						Позвонить сейчас
-						<Phone
-							className='ml-2 w-5 h-5 scale-x-[-1]'
-						/>
+						<Phone className='ml-2 w-5 h-5 scale-x-[-1]' />
 					</Button>
 				</div>
 			</div>
