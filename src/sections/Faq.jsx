@@ -5,7 +5,7 @@ import faqImageBg from "../assets/bg-FAQ.jpg";
 const Faq = () => {
 	return (
 		<section
-			className='relative bg-cover bg-center bg-no-repeat h-[600px] md:h-[800px] flex items-center justify-center text-white'
+			className='relative bg-cover bg-center bg-no-repeat h-[750px] md:h-[800px] flex items-center justify-center text-white'
 			style={{ backgroundImage: `url(${faqImageBg})` }} // путь к изображению
 			id='faq'
 		>
