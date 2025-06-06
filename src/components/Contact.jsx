@@ -33,7 +33,12 @@ const Contact = () => {
 							<Phone className='text-white mt-1' />
 							<div>
 								<h3 className='font-semibold'>Телефон:</h3>
-								<p>+7 (701) 808-66-99</p>
+								<a
+									href='tel:+77018086699'
+									className='text-white hover:text-gray-300 transition-colors'
+								>
+									+7 (701) 808-66-99
+								</a>
 							</div>
 						</div>
 
@@ -41,7 +46,9 @@ const Contact = () => {
 							<Mail className='text-white mt-1' />
 							<div>
 								<h3 className='font-semibold'>Email:</h3>
-								<p>enrika7777@yandex.kz</p>
+								<a href='mailto:enrika7777@yandex.kz' className='text-white'>
+									enrika7777@yandex.kz
+								</a>
 							</div>
 						</div>
 
@@ -49,7 +56,14 @@ const Contact = () => {
 							<MessageCircle className='text-white mt-1' />
 							<div>
 								<h3 className='font-semibold'>WhatsApp:</h3>
-								<p>+7 (701) 808-66-99</p>
+								<a
+									href='https://wa.me/77018086699'
+									target='_blank'
+									rel='noopener noreferrer'
+									className='text-white hover:text-green-400 transition-colors'
+								>
+									+7 (701) 808-66-99
+								</a>
 							</div>
 						</div>
 
@@ -57,7 +71,15 @@ const Contact = () => {
 							<Instagram className='text-white mt-1' />
 							<div>
 								<h3 className='font-semibold'>Instagram:</h3>
-								<p>@enrika777_spa</p>
+								<a
+									// href='https://www.instagram.com/enrika777_spa'
+									href='https://www.instagram.com/enrika777_spa?igsh=MTZxbXA1ZG10ZWdoMQ=='
+									target='_blank'
+									rel='noopener noreferrer'
+									className='text-white hover:text-pink-400 transition-colors'
+								>
+									@enrika777_spa
+								</a>
 							</div>
 						</div>
 
@@ -67,11 +89,24 @@ const Contact = () => {
 								<h3 className='font-semibold'>График работы:</h3>
 								<p>Без выходных: 9:00–20:00,</p>
 							</div>
+
 						</div>
+						    {/* 2gis */}
+							<a
+								href='https://2gis.kz/almaty/geo/9430047375009625'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								<img
+									src='/2gis.jpg'
+									alt='2gis'
+									className='w-[150px] h-[50px] rounded-lg hover:opacity-80 transition-opacity m-auto'
+								/>
+							</a>
 					</div>
 
 					{/* Правая часть: изображение */}
-					<div className='w-full'>
+					<div className='w-full my-auto'>
 						<img
 							src={contactImage}
 							alt='Контакты'

@@ -18,7 +18,7 @@ const Hero = () => {
 		
 	return (
 		<section
-			className='relative bg-cover bg-center bg-no-repeat h-[600px] md:h-[800px] flex items-center justify-center text-white rounded-2xl'
+			className='relative bg-cover bg-center bg-no-repeat h-[600px] md:h-[800px] flex items-center justify-center text-white rounded-2xl mt-3'
 			style={{ backgroundImage: `url(${heroImage})` }} // путь к изображению
 			id='hero'
 		>
