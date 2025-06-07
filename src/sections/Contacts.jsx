@@ -9,7 +9,6 @@ const Contacts = () => {
 			className='relative bg-cover bg-center bg-no-repeat h-[600px] md:h-[800px] flex items-center justify-center text-white'
 			style={{ backgroundImage: `url(${contactsImageBg})` }} // путь к изображению
 			id='contacts'
-			className=''
 		>
 
 			<div className='relative z-20 text-white'>
