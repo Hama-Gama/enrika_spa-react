@@ -13,7 +13,6 @@ const Contact = () => {
 	return (
 		<section>
 			<div className='container mx-auto py-4 max-w-4xl'>
-				<div className='absolute inset-0 bg-black/60 z-10' />
 				<h2 className='text-white text-3xl font-bold mb-10 text-center relative z-20'>
 					Контакты{' '}
 				</h2>
